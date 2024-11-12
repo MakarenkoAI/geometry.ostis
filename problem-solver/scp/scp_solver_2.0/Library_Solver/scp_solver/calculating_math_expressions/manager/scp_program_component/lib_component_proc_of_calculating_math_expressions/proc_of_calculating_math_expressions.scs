@@ -83,8 +83,8 @@ scp_program -> proc_of_calculating_math_expressions
 			<- sys_search;;
 
 			-> rrel_1: rrel_fixed: rrel_scp_const: [* _struct _-> _bin_arc;; 
-								  _bin_arc _<- _rel;;
-								  _rel _<- arithmetic_operation;; *];;
+								  _bin_arc <-_ _rel;;
+								  _rel <-_ arithmetic_operation;; *];;
 		 	-> rrel_2: rrel_fixed: rrel_scp_const: ...
 				(* -> ... 
 					(* -> rrel_1: rrel_fixed: rrel_scp_const: _bin_arc;;
@@ -106,8 +106,8 @@ scp_program -> proc_of_calculating_math_expressions
 			<- sys_search;;
 
 			-> rrel_1: rrel_fixed: rrel_scp_const: [* _struct _-> _bin_arc;; 
-								  _bin_arc _<- _rel;;
-								  _rel _<- trigonometric_operation;; *];;
+								  _bin_arc <-_ _rel;;
+								  _rel <-_ trigonometric_operation;; *];;
 		 	-> rrel_2: rrel_fixed: rrel_scp_const: ...
 				(* -> ... 
 					(* -> rrel_1: rrel_fixed: rrel_scp_const: _bin_arc;;

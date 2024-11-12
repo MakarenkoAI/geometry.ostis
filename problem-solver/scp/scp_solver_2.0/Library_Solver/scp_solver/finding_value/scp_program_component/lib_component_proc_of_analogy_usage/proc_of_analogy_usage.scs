@@ -25,9 +25,9 @@ scp_program -> proc_of_analogy_usage
 			-> rrel_1: rrel_fixed: rrel_scp_const: [* _tuple _-> _figure1;; 
 								  _tuple _-> _figure2;;
 								  _figure2 _=> _nrel_rel1:: _param2;;
-								  _param2 _<= nrel_value:: _val;;
-								  _tuple _<- nrel_congruence;;
-								  _param1 _<= _nrel_rel1:: _figure1;;  *];;
+								  _param2 <=_ nrel_value:: _val;;
+								  _tuple <-_ nrel_congruence;;
+								  _param1 <=_ _nrel_rel1:: _figure1;;  *];;
 		 	-> rrel_2: rrel_fixed: rrel_scp_const: ...
 				(* -> ... 
 					(* -> rrel_1: rrel_fixed: rrel_scp_const: _figure1;;
@@ -70,9 +70,9 @@ scp_program -> proc_of_analogy_usage
 			-> rrel_1: rrel_fixed: rrel_scp_const: [* _tuple2 _-> _figure3;; 
 								  _tuple2 _-> _figure4;;
 								  _figure4 _=> _nrel_rel3:: _param4;;
-								  _param4 _<= nrel_value:: _val2;;
-								  _tuple2 _<- nrel_equal_sized;;
-								  _param3 _<= _nrel_rel3:: _figure3;;  *];;
+								  _param4 <=_ nrel_value:: _val2;;
+								  _tuple2 <-_ nrel_equal_sized;;
+								  _param3 <=_ _nrel_rel3:: _figure3;;  *];;
 		 	-> rrel_2: rrel_fixed: rrel_scp_const: ...
 				(* -> ... 
 					(* -> rrel_1: rrel_fixed: rrel_scp_const: _figure3;;
@@ -115,11 +115,11 @@ scp_program -> proc_of_analogy_usage
 			-> rrel_1: rrel_fixed: rrel_scp_const: [* _tuple3 _-> _figure5;; 
 								  _tuple3 _-> _figure6;;
 								  _figure6 _=> _nrel_rel2:: _param6;;
-								  _param6 _<= nrel_value:: _val3;;
-								  _tuple3 _<- nrel_similarity;;
-								  _param5 _<= _nrel_rel2:: _figure5;;
+								  _param6 <=_ nrel_value:: _val3;;
+								  _tuple3 <-_ nrel_similarity;;
+								  _param5 <=_ _nrel_rel2:: _figure5;;
 								  _tuple3 _=> nrel_coefficient_of_similarity:: _coeff;;
-								  _coeff _<- number;;
+								  _coeff <-_ number;;
 								  _coeff _=> nrel_idtf:: _num_ident;;*];;
 		 	-> rrel_2: rrel_fixed: rrel_scp_const: ...
 				(* -> ... 

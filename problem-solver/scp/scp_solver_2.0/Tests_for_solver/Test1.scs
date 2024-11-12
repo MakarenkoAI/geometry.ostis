@@ -55,8 +55,8 @@ l_part_d_concept_rectangular_triangle = [* concept_rectangular_triangle _-> _tr1
 d_concept_rectangular_triangle -> r_part_d_concept_rectangular_triangle;;
 
 r_part_d_concept_rectangular_triangle = [* _tr11 _=> nrel_internal_angle:: _angle1;;
-			    		   _angle1 _<- concept_right_angle;; 
-			    		   _tr11 _<- concept_triangle;; *];;
+			    		   _angle1 <-_ concept_right_angle;; 
+			    		   _tr11 <-_ concept_triangle;; *];;
 
 d_concept_rectangular_triangle <- nrel_equivalence;;
 

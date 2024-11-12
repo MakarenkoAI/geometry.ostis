@@ -33,7 +33,7 @@ lib_component_ui_menu_file_for_finding_proof_task = [*
 				(*
 				_-> ui_arg_1;;
 				*);;
-			._action_finding_proof_task_instance _<- action;;
+			._action_finding_proof_task_instance <-_ action;;
 		*];;
 
 	ui_menu_file_for_finding_proof_task => ui_nrel_command_lang_template: [Проверка истинности утверждения: $ui_arg_1] (* <- lang_ru;; *);;

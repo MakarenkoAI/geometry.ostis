@@ -40,7 +40,7 @@ lib_component_ui_menu_agent_of_changing_main_identifier = [*
 			_-> rrel_1:: ui_arg_1;;
 			_-> rrel_2:: ui_arg_2;;
 			*);;
-		._action_change_main_instance _<- action;;
+		._action_change_main_instance <-_ action;;
 		*];;
 
 

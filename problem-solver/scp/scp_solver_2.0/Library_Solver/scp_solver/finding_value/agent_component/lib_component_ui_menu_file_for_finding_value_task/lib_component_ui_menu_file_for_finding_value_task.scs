@@ -33,7 +33,7 @@ lib_component_ui_menu_file_for_finding_value_task = [*
 				(*
 				_-> ui_arg_1;;
 				*);;
-			._action_finding_value_task_instance _<- action;;
+			._action_finding_value_task_instance <-_ action;;
 		*];;
 
 	ui_menu_file_for_finding_value_task => ui_nrel_command_lang_template: [Поиск значения: $ui_arg_1] (* <- lang_ru;; *);;
