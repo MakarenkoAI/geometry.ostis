@@ -25,7 +25,7 @@ lib_component_agent_for_generating_inverse_theorem
 	*);;
 
 action_for_generating_inverse_theorem
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[действие. сгенерировать противоположную теорему]
  	(* <- lang_ru;; *);

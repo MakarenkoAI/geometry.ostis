@@ -8,11 +8,11 @@ ui_menu_file_for_solver_solution => nrel_main_idtf:
 
 ui_menu_file_for_solver_solution => ui_nrel_command_template:
 	[*
-		question_solver _-> ._question_solver_instance
+		action_solver _-> ._action_solver_instance
 			(*
 			_-> ui_arg_1;;				
 			*);;
-		._question_solver_instance _<- question;;
+		._action_solver_instance _<- action;;
 	*];;
 
 ui_menu_file_for_solver_solution => ui_nrel_command_lang_template: 

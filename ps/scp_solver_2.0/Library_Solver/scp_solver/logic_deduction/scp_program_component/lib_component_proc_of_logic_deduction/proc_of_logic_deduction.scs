@@ -58,7 +58,7 @@ scp_program -> proc_of_logic_deduction
 			(*
 		  	<- searchElStr5;;
 
-			-> rrel_1: rrel_assign: rrel_scp_var: _question_node;;
+			-> rrel_1: rrel_assign: rrel_scp_var: _action_node;;
 		  	-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc1;;
 		  	-> rrel_3: rrel_fixed: rrel_scp_var: _condition_graph;;
 			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
@@ -72,9 +72,9 @@ scp_program -> proc_of_logic_deduction
                  	(*
 		  	<- searchElStr3;;
 
-		  	-> rrel_1: rrel_fixed: rrel_scp_const: question;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_const: action;;
 		  	-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc1;;
-		  	-> rrel_3: rrel_fixed: rrel_scp_var: _question_node;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _action_node;;
 
 		  	=> nrel_then: .proc_of_logic_deduction_operator7F;;
 		  	=> nrel_else: .proc_of_logic_deduction_operator7B;;

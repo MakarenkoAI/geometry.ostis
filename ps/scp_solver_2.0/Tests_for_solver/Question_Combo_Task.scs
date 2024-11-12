@@ -1,6 +1,6 @@
-Question_Combo_Task => nrel_main_idtf: [Комбинированная задача] (* <-lang_ru;; *);;
+action_Combo_Task => nrel_main_idtf: [Комбинированная задача] (* <-lang_ru;; *);;
 
-Question_Combo_Task <= nrel_sc_text_translation: 
+action_Combo_Task <= nrel_sc_text_translation: 
 	...
 	(*
 	-> rrel_example: 
@@ -10,7 +10,7 @@ Question_Combo_Task <= nrel_sc_text_translation:
 
 OR_Len => nrel_main_idtf: [Найти длину Окружности (O;R)] (* <-lang_ru;; *);;
 
-Question_Combo_Task <- rrel_key_sc_element: 
+action_Combo_Task <- rrel_key_sc_element: 
 	...
 	(*
 	<- illustration;; 

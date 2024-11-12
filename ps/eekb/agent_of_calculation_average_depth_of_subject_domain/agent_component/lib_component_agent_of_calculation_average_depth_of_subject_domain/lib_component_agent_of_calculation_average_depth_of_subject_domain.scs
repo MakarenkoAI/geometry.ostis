@@ -28,7 +28,7 @@ lib_component_agent_of_calculation_average_depth_of_subject_domain
 	*);;
 
 action_to_calculate_average_depth_of_subject_domain
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[действие. вычислить cреднюю глубину предметных областей]
  	(* <- lang_ru;; *);

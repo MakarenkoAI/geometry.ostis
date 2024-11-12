@@ -1,5 +1,5 @@
-Question1 <- question;;
-Question1 -> rrel_1: 
+action1 <- action;;
+action1 -> rrel_1: 
 	[* concept_rectangular_triangle -> struct_Rectangular_Triangle_XYZ;;
 
 	   struct_Rectangular_Triangle_XYZ => nrel_cathetus: struct_Segment_XY;;
@@ -26,9 +26,9 @@ Question1 -> rrel_1:
 	   struct_Rectangular_Triangle_XYZ => nrel_area: XYZ_Area;; 
 	 *] (* <- atomic_formula;; *);;
 
-Question1 -> rrel_2: XYZ_Area;;
+action1 -> rrel_2: XYZ_Area;;
 
-Question1 <- rrel_key_sc_element: 
+action1 <- rrel_key_sc_element: 
 	explanation
 	(*
 	<- explanation;;

@@ -29,7 +29,7 @@ scp_program -> agent_of_finding_value_task
 			(*
 			<- searchElStr3;;
 
-			-> rrel_1: rrel_fixed: rrel_scp_const: question_finding_value_task;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: action_finding_value_task;;
 			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc1;;
 			-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
 
@@ -228,7 +228,7 @@ scp_program -> agent_of_finding_value_task
 			<- contAssign;;
 
 			-> rrel_1: rrel_assign: rrel_scp_var: _message;;
-			-> rrel_2: rrel_fixed: rrel_scp_const: [Question node wasn't found! Please, correct your task construction.];;
+			-> rrel_2: rrel_fixed: rrel_scp_const: [action node wasn't found! Please, correct your task construction.];;
 
 			=> nrel_goto: .agent_of_finding_value_task_operator1G1;;
 			*);;
@@ -246,7 +246,7 @@ scp_program -> agent_of_finding_value_task
 			(*
 			<- searchElStr3;;
 
-			-> rrel_1: rrel_fixed: rrel_scp_const: question;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: action;;
 			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc1;;
 			-> rrel_3: rrel_fixed: rrel_scp_var: _task_node;;
 
@@ -375,7 +375,7 @@ scp_program -> agent_of_finding_value_task
 			(*
 			<- searchElStr3;;
 
-			-> rrel_1: rrel_fixed: rrel_scp_const: question_finding_value;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: action_finding_value;;
 			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
 			-> rrel_3: rrel_fixed: rrel_scp_var: _task_node;;
 
@@ -387,7 +387,7 @@ scp_program -> agent_of_finding_value_task
 			(*
 			<- genElStr3;;
 
-			-> rrel_1: rrel_fixed: rrel_scp_const: question_finding_value;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: action_finding_value;;
 			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
 			-> rrel_3: rrel_fixed: rrel_scp_var: _task_node;;
 
@@ -398,7 +398,7 @@ scp_program -> agent_of_finding_value_task
 			(*
 			<- searchSetStr3;;
 
-			-> rrel_1: rrel_fixed: rrel_scp_const: question_finding_value;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: action_finding_value;;
 			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
 			-> rrel_3: rrel_fixed: rrel_scp_var: _task_node;;
 
@@ -413,7 +413,7 @@ scp_program -> agent_of_finding_value_task
 
 			-> rrel_1: rrel_fixed: rrel_scp_var: _answer_of_finding_value;;
 			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
-			-> rrel_3: rrel_fixed: rrel_scp_const: question_finding_value;;
+			-> rrel_3: rrel_fixed: rrel_scp_const: action_finding_value;;
 
 			=> nrel_goto: .agent_of_finding_value_task_operator3A1;;
 			*);;
@@ -422,7 +422,7 @@ scp_program -> agent_of_finding_value_task
 			(*
 			<- searchElStr3;;
 
-			-> rrel_1: rrel_fixed: rrel_scp_const: question_finished_successfully;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: action_finished_successfully;;
 			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
 			-> rrel_3: rrel_fixed: rrel_scp_var: _task_node;;
 
@@ -434,7 +434,7 @@ scp_program -> agent_of_finding_value_task
 			(*
 			<- genElStr3;;
 
-			-> rrel_1: rrel_fixed: rrel_scp_const: question_finished_successfully;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: action_finished_successfully;;
 			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
 			-> rrel_3: rrel_fixed: rrel_scp_var: _task_node;;
 
@@ -445,7 +445,7 @@ scp_program -> agent_of_finding_value_task
 			(*
 			<- searchSetStr3;;
 
-			-> rrel_1: rrel_fixed: rrel_scp_const: question_finished_successfully;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: action_finished_successfully;;
 			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
 			-> rrel_3: rrel_fixed: rrel_scp_var: _task_node;;
 
@@ -460,7 +460,7 @@ scp_program -> agent_of_finding_value_task
 
 			-> rrel_1: rrel_fixed: rrel_scp_var: _answer_of_finding_value;;
 			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
-			-> rrel_3: rrel_fixed: rrel_scp_const: question_finished_successfully;;
+			-> rrel_3: rrel_fixed: rrel_scp_const: action_finished_successfully;;
 
 			=> nrel_goto: .agent_of_finding_value_task_operator4A1;;
 			*);;
@@ -469,7 +469,7 @@ scp_program -> agent_of_finding_value_task
 			(*
 			<- genElStr3;;
 
-			-> rrel_1: rrel_fixed: rrel_scp_const: question_finished_unsuccessfully;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: action_finished_unsuccessfully;;
 			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
 			-> rrel_3: rrel_fixed: rrel_scp_var: _task_node;;
 
@@ -480,7 +480,7 @@ scp_program -> agent_of_finding_value_task
 			(*
 			<- searchSetStr3;;
 
-			-> rrel_1: rrel_fixed: rrel_scp_const: question_finished_unsuccessfully;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: action_finished_unsuccessfully;;
 			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
 			-> rrel_3: rrel_fixed: rrel_scp_var: _task_node;;
 
@@ -495,7 +495,7 @@ scp_program -> agent_of_finding_value_task
 
 			-> rrel_1: rrel_fixed: rrel_scp_var: _answer_of_finding_value;;
 			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
-			-> rrel_3: rrel_fixed: rrel_scp_const: question_finished_unsuccessfully;;
+			-> rrel_3: rrel_fixed: rrel_scp_const: action_finished_unsuccessfully;;
 
 			=> nrel_goto: .agent_of_finding_value_task_operator4A1;;
 			*);;
@@ -670,7 +670,7 @@ scp_program -> agent_of_finding_value_task
 			(*
 			<- eraseElStr3;;
 
-			-> rrel_1: rrel_fixed: rrel_scp_const: question_initiated;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: action_initiated;;
 			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_erase: rrel_scp_var: _arc1;;
 			-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
 
@@ -681,7 +681,7 @@ scp_program -> agent_of_finding_value_task
 			(*
 			<- eraseElStr3;;
 
-			-> rrel_1: rrel_fixed: rrel_scp_const: question_finding_value_task;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: action_finding_value_task;;
 			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_erase: rrel_scp_var: _arc1;;
 			-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
 
@@ -692,7 +692,7 @@ scp_program -> agent_of_finding_value_task
 			(*
 			<- genElStr5;;
 
-			-> rrel_1: rrel_fixed: rrel_scp_const: question_finding_value_task;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: action_finding_value_task;;
 			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
 			-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
 			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
@@ -705,7 +705,7 @@ scp_program -> agent_of_finding_value_task
 			(*
 			<- genElStr3;;
 
-			-> rrel_1: rrel_fixed: rrel_scp_const: question_initiated;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: action_initiated;;
 			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
 			-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
 
@@ -716,7 +716,7 @@ scp_program -> agent_of_finding_value_task
 			(*                                       
 			<- searchElStr3;;
 
-			-> rrel_1: rrel_fixed: rrel_scp_const: question_finished_successfully;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: action_finished_successfully;;
 			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
 			-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
 
@@ -728,7 +728,7 @@ scp_program -> agent_of_finding_value_task
 			(*                                       
 			<- searchElStr3;;
 
-			-> rrel_1: rrel_fixed: rrel_scp_const: question_finished_unsuccessfully;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: action_finished_unsuccessfully;;
 			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
 			-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
 
@@ -750,7 +750,7 @@ scp_program -> agent_of_finding_value_task
 			(*                                       
 			<- eraseElStr3;;
 
-			-> rrel_1: rrel_fixed: rrel_scp_const: question_initiated;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: action_initiated;;
 			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_erase: rrel_scp_var: _arc1;;
 			-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
 
@@ -834,7 +834,7 @@ scp_program -> agent_of_finding_value_task
 			(*                                       
 			<- searchElStr3;;
 
-			-> rrel_1: rrel_fixed: rrel_scp_const: question_finished_successfully;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: action_finished_successfully;;
 			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
 			-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
 

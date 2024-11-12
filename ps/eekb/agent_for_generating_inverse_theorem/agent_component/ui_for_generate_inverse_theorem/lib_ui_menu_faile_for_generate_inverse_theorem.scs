@@ -39,7 +39,7 @@ lib_ui_menu_file_for_generate_inverse_theorem = [*
 				(*
 				_-> ui_arg_1;;				
 				*);;
-			._action_for_generating_inverse_theorem_instance _<- question;;
+			._action_for_generating_inverse_theorem_instance _<- action;;
 		*];;
 
 	ui_menu_faile_for_generate_inverse_theorem => ui_nrel_command_lang_template: 

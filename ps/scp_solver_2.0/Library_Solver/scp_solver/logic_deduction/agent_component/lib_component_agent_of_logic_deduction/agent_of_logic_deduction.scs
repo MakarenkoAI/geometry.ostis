@@ -29,7 +29,7 @@ scp_program -> agent_of_logic_deduction
 			(*
 		  	<- searchElStr3;;
 
-		  	-> rrel_1: rrel_fixed: rrel_scp_const: question_of_logic_deduction;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_const: action_of_logic_deduction;;
 		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
 		  	-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
 
@@ -171,7 +171,7 @@ scp_program -> agent_of_logic_deduction
 			(*
 		  	<- genElStr3;;
 
-		  	-> rrel_1: rrel_fixed: rrel_scp_const: question_finished_successfully;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_const: action_finished_successfully;;
 		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
 		  	-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
 
@@ -193,7 +193,7 @@ scp_program -> agent_of_logic_deduction
 			(*
 		  	<- genElStr3;;
 
-		  	-> rrel_1: rrel_fixed: rrel_scp_const: question_finished_unsuccessfully;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_const: action_finished_unsuccessfully;;
 		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
 		  	-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
 
@@ -204,7 +204,7 @@ scp_program -> agent_of_logic_deduction
 		 	(*
 		  	<- eraseElStr3;;
 
-		  	-> rrel_1: rrel_fixed: rrel_scp_const: question_initiated;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_const: action_initiated;;
 		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_erase: rrel_scp_var: _arc1;;
 		  	-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
 
@@ -235,7 +235,7 @@ scp_program -> agent_of_logic_deduction
                  	(*
 		  	<- genElStr3;;
 
-		  	-> rrel_1: rrel_fixed: rrel_scp_const: question_of_calculating_math_expressions;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_const: action_of_calculating_math_expressions;;
 		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
 		  	-> rrel_3: rrel_fixed: rrel_scp_var: _quest2;;
 
@@ -246,7 +246,7 @@ scp_program -> agent_of_logic_deduction
                  	(*
 		  	<- genElStr3;;
 
-		  	-> rrel_1: rrel_fixed: rrel_scp_const: question_initiated;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_const: action_initiated;;
 		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
 		  	-> rrel_3: rrel_fixed: rrel_scp_var: _quest2;;
 
@@ -257,7 +257,7 @@ scp_program -> agent_of_logic_deduction
                   	(*                                       
 		  	<- searchElStr3;;
 
-		  	-> rrel_1: rrel_fixed: rrel_scp_const: question_finished_unsuccessfully;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_const: action_finished_unsuccessfully;;
 		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
 		  	-> rrel_3: rrel_fixed: rrel_scp_var: _quest2;;
 
@@ -269,7 +269,7 @@ scp_program -> agent_of_logic_deduction
                   	(*                                       
 		  	<- searchElStr3;;
 
-		  	-> rrel_1: rrel_fixed: rrel_scp_const: question_finished_successfully;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_const: action_finished_successfully;;
 		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
 		  	-> rrel_3: rrel_fixed: rrel_scp_var: _quest2;;
 
@@ -291,7 +291,7 @@ scp_program -> agent_of_logic_deduction
 			(*
 		  	<- eraseElStr3;;
 
-		  	-> rrel_1: rrel_fixed: rrel_scp_const: question_initiated;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_const: action_initiated;;
 		  	-> rrel_2: rrel_assign: rrel_erase: rrel_pos_const_perm: rrel_scp_var: _arc1;;
 		  	-> rrel_3: rrel_fixed: rrel_scp_var: _quest2;;
 
@@ -302,7 +302,7 @@ scp_program -> agent_of_logic_deduction
             (*
 		  	<- eraseElStr3;;
 
-		  	-> rrel_1: rrel_fixed: rrel_scp_const: question_finished_unsuccessfully;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_const: action_finished_unsuccessfully;;
 		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_erase: rrel_scp_var: _arc1;;
 		  	-> rrel_3: rrel_fixed: rrel_scp_var: _quest2;;
 
@@ -322,7 +322,7 @@ scp_program -> agent_of_logic_deduction
             (*
 		  	<- genElStr3;;
 
-		  	-> rrel_1: rrel_fixed: rrel_scp_const: question_finished_partfully;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_const: action_finished_partfully;;
 		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
 		  	-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
 
@@ -333,7 +333,7 @@ scp_program -> agent_of_logic_deduction
 			(*
 		  	<- eraseElStr3;;
 
-		  	-> rrel_1: rrel_fixed: rrel_scp_const: question_initiated;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_const: action_initiated;;
 		  	-> rrel_2: rrel_assign: rrel_erase: rrel_pos_const_perm: rrel_scp_var: _arc1;;
 		  	-> rrel_3: rrel_fixed: rrel_scp_var: _quest2;;
 
@@ -435,7 +435,7 @@ scp_program -> agent_of_logic_deduction
 			(*
 		  	<- genElStr3;;
 
-		  	-> rrel_1: rrel_fixed: rrel_scp_const: question_finished_successfully;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_const: action_finished_successfully;;
 		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
 		  	-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
 

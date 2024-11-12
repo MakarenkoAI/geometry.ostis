@@ -35,12 +35,12 @@ lib_component_ui_menu_file_for_finding_hypertext = [*
 
 	ui_menu_file_for_finding_hypertext => ui_nrel_command_template:
 		[*
-			question_of_finding_hypertext _-> ._question_of_finding_hypertext_instance
+			action_of_finding_hypertext _-> ._action_of_finding_hypertext_instance
 				(*
 				_-> rrel_1:: ui_arg_1;;
 				_-> rrel_2:: ui_arg_2;;
 				*);;
-			._question_of_finding_hypertext_instance _<- question;;
+			._action_of_finding_hypertext_instance _<- action;;
 		*];;
 
 	ui_menu_file_for_finding_hypertext => ui_nrel_command_lang_template: 

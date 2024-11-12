@@ -28,7 +28,7 @@ lib_component_agent_of_calculation_number_of_all_types_of_input_connections_of_v
 	*);;
 
 action_to_calculate_average_value_of_input_connections_of_vertex
-<- sc_node_not_relation;
+<- sc_node_class;
 => nrel_main_idtf:
 	[действие. вычислить среднее значение количества различных типов входящих связей вершины онтологии]
  	(* <- lang_ru;; *);

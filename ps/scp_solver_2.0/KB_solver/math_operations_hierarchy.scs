@@ -1,7 +1,7 @@
-sc_node_not_relation -> trigonometric_operation;
+sc_node_class -> trigonometric_operation;
 			arithmetic_operation_on_the_values;;
 
-sc_node_norole_relation -> nrel_sin; nrel_cos; nrel_tan;; 
+sc_node_non_role_relation -> nrel_sin; nrel_cos; nrel_tan;; 
 
 nrel_sin => nrel_main_idtf: [синус*] (* <- lang_ru;; *);
 			    [sinus*] (* <- lang_en;; *);;

@@ -1,6 +1,6 @@
-Question_Combo_Task -> rrel_1: Condition_Graph1;;
-Question_Combo_Task -> rrel_2: OR_Len;;
-Question_Combo_Task <- question; sc_node_struct;;
+action_Combo_Task -> rrel_1: Condition_Graph1;;
+action_Combo_Task -> rrel_2: OR_Len;;
+action_Combo_Task <- action; sc_node_structure;;
 
 Condition_Graph1 = [* concept_circle -> Circle_OR;;
 				  concept_square -> Square_ORCD;;
