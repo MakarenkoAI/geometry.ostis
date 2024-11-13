@@ -1,4 +1,4 @@
-knowledge_base_of_Euclidean_geometry <= nrel_section_decomposition:
+knowledge_base_of_Euclidean_geometry => nrel_section_decomposition:
 	{
 	documentation_Euclidean_geometry;
 	documentation_Ostis_Geometry;
