@@ -57,7 +57,7 @@ sc_agent_of_strategy_usage
 	action_finding_value_task _-> rrel_false:: .._action;;
 	action_finished _-> .._action;;
 	action _-> .._action;;
-	.._action _=> nrel_answer:: .._answer;;
+	.._action _=> nrel_result:: .._answer;;
 	.._action _-> .._parameter;;
 *];;
 
@@ -66,6 +66,6 @@ sc_agent_of_strategy_usage
 	action_finding_proof_task _-> rrel_false:: .._action;;
 	action_finished _-> .._action;;
 	action _-> .._action;;
-	.._action _=> nrel_answer:: .._answer;;
+	.._action _=> nrel_result:: .._answer;;
 	.._action _-> .._parameter;;
 *];;
